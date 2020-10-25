@@ -1,14 +1,66 @@
 <!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <meta charset="utf-8">  
+    <title>Cipher Enamorados</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
+
+
     <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
+
+    
+
+          <!--PAGINA INICIO-->
+     <main class="main">
+        <a id="imgenFondo1" href="#"> <img src="C:\Users\PANDITINHO\Desktop\Proyecto cipher Enamorados\SCL015-cipher\imagenes\img1.png" alt="imagenFondo2"></a>
+        <div class="pagInicio" id="paginaIinicio"><!--aqui le doy clase e identificacion a la pagina inicio-->
+         <h1>OUR SECRET MESSAGES</h1>    
+         <P>Éste es un  CIFRADO en el que una letra es REEMPLAZADA por <br />otra letra, un número de POSICIONES más adelante en el  <br />alfabeto.<br />De ésta manera podrás tener una comunicacion CONFIDENCIAL con <br />tu Pareja. <br /> <br />Tu debes INDICAR el número de POSICIONES que serán <br /> REEMPLAZADAS las letras...</P>
+         <button class="bIniciar" id="bIniciar">INICIAR</button>
+        </div> <!---->
+
+         <!--PAGINA 2 Cifrado-->
+        <div class="pagCifrado" id="paginaCifrado">
+         <a id="imgenFondo2" href="#"> <img src="C:\Users\PANDITINHO\Desktop\Proyecto cipher Enamorados\SCL015-cipher\imagenes\img2.png" alt="imagenFondo2"></a>
+         <form action=""><!--es un armazon que Le dice al nav que esto es un formulario-->     
+
+           <p>Indica el NÚMERO de POSICIONES a desplazar...          
+           </p>
+           <span></span>
+          <input type="number" class="input" id="offsetInput">        
+      
+
+           <p>Escribe tu Frase o palabra...</p>
+        
+           <input type= "text" class="input" id="string"/>  <!--cajita que va a contener la frase o palabra a descifrar-->
+           <span id="cajafraseAdescifrar"></span> <!--donde voy a recibir la palabra--->
+         
+           <button type="button" class="bCifrar" id="botonCifrar"> CIFRAR </button>
+           <button type="button" class="bDescifrar" id="botonDescifrar" >DESCIFRAR</button>
+           <button type="button" class="bLimpiar" id="botonlimpiar"onclick="limpiar()">LIMPIAR</button> 
+               
+      
+         </form>  
+
+          <p>Mensaje...</p>
+          <div class="mensajeFinal" id="mensajefinalDescifrado">
+          <!--cajita que va a contener el mensaje final cifrado o descifrado-->        
+          </div>
+        </div> 
+                 
+          
+        
+      </main>
+      <fouter>
+        <p>Hecho por Erika Arango - SCL 15 - Laboratoria </p>
+      </fouter>
+   </div>
+   
+   <script src="index.js" type="module"></script> 
+   <script src="cipher.js" type="module"></script>
   </body>
 </html>

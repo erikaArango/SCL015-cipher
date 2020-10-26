@@ -2,8 +2,9 @@ import cipher from './cipher.js';
 
 //declaro las variables de las paginas que voy a trabajar
 const pagInicio = document.getElementById("paginaIinicio");
-
 const pagCifrado = document.getElementById("paginaCifrado");
+
+
 //estoy ocultando la segunda pagina
 pagCifrado.style.display = "none"
 
@@ -14,6 +15,7 @@ iniciar.addEventListener("click",function() {
  pagCifrado.style.display="block";
 })
  
+//FUNCIONALIDAD BOTON CIFRAR
  const btnCifrado = document.getElementById("botonCifrar") 
  btnCifrado.addEventListener("click",function()  {
   const offsetInput= document.getElementById("offsetInput").value 
@@ -29,32 +31,27 @@ iniciar.addEventListener("click",function() {
 
   //aqui tomo el elemento y lo mando a la cajita del mensaje final.  les estoy diciendo que  incerte(inner)lo que hay en el cipher
   document.getElementById("mensajefinalDescifrado").innerHTML = mensajeFinal
-};
-
-
+}
 
  })
- const btnDescirar = document.getElementById("botonDescifrar")
- botonDescifrar.addEventListener("click",function()  {
+ //FUNCIONALIDAD BOTON DESCIFRAR
+ const btnDescifrar = document.getElementById("botonDescifrar")
+ btnDescifrar.addEventListener("click",function()  {
  const offsetInput= document.getElementById("offsetInput").value 
  const string = document.getElementById("string").value
- console.log(offsetInput + string) 
+
  if (offsetInput == "" || string == "" || offsetInput < 0 ) {
     alert ("ingrese los datos correctamente")
  }
  else {const mensajeFinal = cipher.decode(offsetInput,string)
  document.getElementById("mensajefinalDescifrado").innerHTML = mensajeFinal
 }
+})
 
-
- })
-
-
-
- const limpiar = ()=>{location.reload}
-
-
- 
+//FUNCIONALIDAD BOTON LIMPIAR
+ const btnLimpiar = document.getElementById("botonLimpiar")
+ btnLimpiar.addEventListener("click", function(){ location.reload()})
+ console.log(botonLimpiar)
 
 
 

@@ -4,20 +4,21 @@ const cipher = {
 encode: (offset,string) => {
     //convierto el offset a entero
     offset = parseInt(offset)
-    //declaro la variable mensaje
+    //declaro la variable mensaje con el  METODO toUpperCase
+    // string; //estoy llamando string  desdes el index.js
     string = string.toUpperCase();
     let mensaje = "";
 
-    //como van a correr los caracteres de la frase o palabra
+    //como van a correr los caracteres de la frase o palabra for es un bucle 
     for(let i = 0; i < string.length; i++){
 
         //voy a sacar el codigo ASCII del caracter
         const aAscii = string.charCodeAt(i);
 
-        //como obtener la nueva posicion en ASSCII
+        //como obtener la nueva posicion en ASSCII aplico el desplazamiento la formula sobre la letra 
         let nuevaPosicion = ((aAscii - 65 + offset) % 26) + 65
 
-        //para  que no reemplaze el caracter de los espacios
+        //para  que no reemplaze el caracter de los espacios if es una condicional
         if (aAscii === 32) {nuevaPosicion = 32; }//Aqui le digo que si llega al ascii 32 lo mANTENGA  en 32 que es un espacio, que no voy a cifrar
          
         //convertir el ASCII a la nueva posicion

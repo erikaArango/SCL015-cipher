@@ -1,7 +1,7 @@
 import cipher from './cipher.js';
 
 //declaro las variables de las paginas que voy a trabajar
-const pagInicio = document.getElementById("paginaIinicio");
+const pagInicio = document.getElementById("paginaInicio");
 const pagCifrado = document.getElementById("paginaCifrado");
 
 
@@ -51,7 +51,7 @@ iniciar.addEventListener("click",function() {
 //FUNCIONALIDAD BOTON LIMPIAR
  const btnLimpiar = document.getElementById("botonLimpiar")
  btnLimpiar.addEventListener("click", function(){ location.reload()})
- console.log(botonLimpiar)
+ 
 
 
 

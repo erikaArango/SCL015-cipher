@@ -4,20 +4,26 @@ import cipher from '../src/cipher';
 
 describe('cipher', () => {
 
-  it('should be an object', () => {
-    expect(typeof cipher).toBe('object');
+  it('should be an object', () => {  //deberia ser un objeto
+    expect(typeof cipher).toBe('object'); //se espera sea un objeto
   });
 
-  describe('cipher.encode', () => {
+describe('cipher.encode', () =>{ 
 
-    it('should be a function', () => {
-      expect(typeof cipher.encode).toBe('function');
+    it('should be a function', () => {  //deberia ser una funcion
+      expect(typeof cipher.encode).toBe('function');//se espera que  cipher.encode sea un a funcion
     });
 
-    it('should return "HIJKLMNOPQRSTUVWXYZABCDEFG" for "ABCDEFGHIJKLMNOPQRSTUVWXYZ" with offset 33'
-    // Acá debes completar este test
+    it('deberia retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offset 33', ()=>{
+
+      expect(cipher.encode('ABCDEFGHIJKLMNOPQRSTUVWXYZ', 33)).tobe('HIJKLMNOPQRSTUVWXYZABCDEFG')
+    }
+    )
+  }
     );
+  
+}
+  );
+    
 
-  });
 
-});

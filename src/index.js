@@ -14,7 +14,7 @@ iniciar.addEventListener("click",function() {
  pagInicio.style.display="none";
  pagCifrado.style.display="block";
 })
- 
+  
 //FUNCIONALIDAD BOTON CIFRAR
  const btnCifrado = document.getElementById("botonCifrar") 
  btnCifrado.addEventListener("click",function()  {

@@ -33,26 +33,37 @@
          <!--PAGINA 2 Cifrado-->
         <div class="pagCifrado" id="paginaCifrado">      
          
-         <form action=""><!--es un armazon que Le dice al nav que esto es un formulario-->     
+         <form action=""><!--es un armazon que Le dice al nav que esto es un formulario-->  
+           
+          
+           <div class="parrafoUno" id="parrafoUno">
+            <p>Indica el NÚMERO de POSICIONES a desplazar...</p>
+          </div>
 
-           <p>Indica el NÚMERO de POSICIONES a desplazar...          
-           </p>
-           <span></span>
+         
           <input type="number" class="input" id="offsetInput">        
       
-
-           <p>Escribe tu Frase o palabra...</p>
+           <div class="parrafoDos" id="parrafoDos">
+            <p>ESCRIBE TU FRASE O PALABRA...</p>
+           </div>
         
            <input type= "text" class="input" id="string"/>  <!--cajita que va a contener la frase o palabra a descifrar-->
            <span id="cajafraseAdescifrar"></span> <!--donde voy a recibir la palabra--->
+
+           <!--Botones-->
            <div class="botonesCifrado" id="botonesDeCifrado">
             <button type="button" class="bCifrar" id="botonCifrar"> CIFRAR </button>
             <button type="button" class="bDescifrar" id="botonDescifrar" >DESCIFRAR</button>
             <button type="button" class="bLimpiar" id="botonLimpiar">LIMPIAR</button>
           </div> 
-         </form>  
 
-          <p>Mensaje...</p>
+         </form>  
+          
+          <div class="parrafoMensaje" id="parrafoMensaje">
+          <p>MENSAJE...</p>
+          </div>
+
+
           <div class="mensajeFinal" id="mensajefinalDescifrado">
           <!--cajita que va a contener el mensaje final cifrado o descifrado-->        
           </div>

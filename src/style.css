@@ -18,32 +18,43 @@ body{
 h1{
     font-family: 'Love Ya Like A Sister', cursive;
     font-size: 110px;
-    color: #E7D475;
-     
-    
+    color: #E7D475;  
+        
 }
 
 .parrafoInicio{
  
   text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 25px;
+  font-size: 35px;
   color: #FFFFFF;
+  margin: 60px;
 }
 
+.pagInicio{
+
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  /*margin: 200px auto;
+  padding: 40px;*/
+}
 
 .bIniciar {
 
   display: inline-block;
   color:#813b52;;
-  margin: 5px;
+  margin: 60px;
   font-size: 64px; 
   width: 396px;
   height: 88px;
   border-radius: 60px;
   background-color: #fff;
   font-family: 'Love Ya Like A Sister', cursive;
-  
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+  align-self: center;
+
+ 
      
 }
 
@@ -99,7 +110,7 @@ h1{
     background: #FFFFFF;
     border: 4px solid #823057;
     border-radius: 20px;
-    margin: 20px;    
+    margin: 20px;  
   }
 
   .botonesCifrado{
@@ -116,6 +127,7 @@ h1{
     border-radius: 60px;
     background-color: #813b52 ;
     font-family: 'Love Ya Like A Sister', cursive;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
 
   }
 
@@ -128,6 +140,7 @@ h1{
     border-radius: 60px;
     background-color: #813b52 ;
     font-family: 'Love Ya Like A Sister', cursive;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
 
   }
 
@@ -140,6 +153,7 @@ h1{
     border-radius: 60px;
     background-color: #813b52 ;
     font-family: 'Love Ya Like A Sister', cursive;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
 
   }
 
@@ -170,9 +184,9 @@ h1{
 /*.footer{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: small;
+    font-size: small;*/
 
-}*/
+}
 
 
 

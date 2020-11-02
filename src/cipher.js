@@ -2,12 +2,14 @@
 const cipher = {
     
     encode: (offset,string) => {
+
         //convierto el offset a entero
         offset = parseInt(offset)
-        //declaro la variable mensaje con el  METODO toUpperCase
-        // string; //estoy llamando string  desdes el index.js
-        string = string.toUpperCase();
-        let mensaje = "";
+
+
+        //declaro la variable mensaje
+        let mensaje = ""
+               
     
         //como van a correr los caracteres de la frase o palabra for es un bucle 
         for(let i = 0; i < string.length; i++){
@@ -32,12 +34,13 @@ const cipher = {
         return mensaje;
     },
     decode: (offset,string) => {
-        let mensaje = ""
-        //convierto el offset a entero
+        
+        //aqui convierto el offset a entero para que js me lo tome como numero
         offset = parseInt(offset)
-        //paso a mayusculas
-        string = string.toUpperCase();
-    
+         //declaro la variable mensaje               
+        let mensaje = "";
+
+           
     
     
         for(let i=0; i < string.length;i++){

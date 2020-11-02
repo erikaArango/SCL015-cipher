@@ -18,9 +18,19 @@ iniciar.addEventListener("click",function() {
 //FUNCIONALIDAD BOTON CIFRAR
  const btnCifrado = document.getElementById("botonCifrar") 
  btnCifrado.addEventListener("click",function()  {
-  const offsetInput= document.getElementById("offsetInput").value 
-  const string = document.getElementById("string").value
+
+//  OFFSET    
+ let offsetInput= document.getElementById("offsetInput").value 
+
+
+// STRING     
+ let string = document.getElementById("string").value
+//paso todo a mayuscula
+ string = string.toUpperCase();
+
+
    
+ //Le voy a decir que haga con el offset y el input
   if (offsetInput == "" || string == "" || offsetInput < 0 ) {
       alert ("ingrese los datos correctamente")
   }
@@ -37,10 +47,18 @@ iniciar.addEventListener("click",function() {
  //FUNCIONALIDAD BOTON DESCIFRAR
  const btnDescifrar = document.getElementById("botonDescifrar")
  btnDescifrar.addEventListener("click",function()  {
- const offsetInput= document.getElementById("offsetInput").value 
- const string = document.getElementById("string").value
 
- if (offsetInput == "" || string == "" || offsetInput < 0 ) {
+ // OFFSET
+ const offsetInput= document.getElementById("offsetInput").value 
+ 
+ //STRING
+ let string = document.getElementById("string").value
+ // paso a mayuscula con el  METODO toUpperCase
+ string = string.toUpperCase();
+
+
+//Le voy a decir que haga con el offset y el input
+ if (offsetInput == "" || string == "" || offsetInput < 0 ) {     
     alert ("ingrese los datos correctamente")
  }
  else {const mensajeFinal = cipher.decode(offsetInput,string)

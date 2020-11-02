@@ -16,11 +16,28 @@ describe('cipher.encode', () =>{
 
     it('deberia retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offset 33', ()=>{
 
-      expect(cipher.encode('ABCDEFGHIJKLMNOPQRSTUVWXYZ', 33)).tobe('HIJKLMNOPQRSTUVWXYZABCDEFG')
+      expect(cipher.encode(33,'ABCDEFGHIJKLMNOPQRSTUVWXYZ')).toBe('HIJKLMNOPQRSTUVWXYZABCDEFG')
     }
     )
   }
     );
+    
+
+    describe('cipher.decode', () =>{ 
+
+      it('should be a function', () => {  //deberia ser una funcion
+        expect(typeof cipher.decode).toBe('function');//se espera que  cipher.encode sea un a funcion
+      });
+  
+      it('deberia retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offset 33', ()=>{
+
+        expect(cipher.decode(33,'HIJKLMNOPQRSTUVWXYZABCDEFG')).toBe('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
+      }
+      )
+
+    }
+      );     
+
   
 }
   );

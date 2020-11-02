@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
   <head>
     <meta charset="utf-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--sirve para que la pagina sea responsiva -->     
     <title>Cipher Enamorados</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
@@ -20,15 +21,14 @@
        
         <div class="pagInicio" id="paginaInicio"><!--aqui le doy clase e identificacion a la pagina inicio-->
 
-          <div class="titulo" id="titulo1">
+         
            <h1>OUR SECRET MESSAGES</h1> 
-          </div>
-
-          <div class="parrafoInicio" id="parrafoInicial">            
-         <p>Éste es un  CIFRADO en el que una letra es REEMPLAZADA por <br />otra letra, un número de POSICIONES más adelante en el  <br />alfabeto.<br />De ésta manera podrás tener una comunicacion CONFIDENCIAL con <br />tu Pareja. <br /> <br />Tu debes INDICAR el número de POSICIONES que serán <br /> REEMPLAZADAS las letras...</p>
-         </div>
+        
+                     
+         <p class="parrafoInicio" id="parrafoInicial">Éste es un  CIFRADO en el que una letra es REEMPLAZADA por <br />otra letra, un número de POSICIONES más adelante en el  <br />alfabeto.<br />De ésta manera podrás tener una comunicacion CONFIDENCIAL con <br />tu Pareja. <br /> <br />Tu debes INDICAR el número de POSICIONES que serán <br /> REEMPLAZADAS las letras...</p>
+         
          <button class="bIniciar" id="bIniciar">INICIAR</button>
-        </div> <!---->
+        </div> 
 
          <!--PAGINA 2 Cifrado-->
         <div class="pagCifrado" id="paginaCifrado">      
@@ -36,16 +36,16 @@
          <form action=""><!--es un armazon que Le dice al nav que esto es un formulario-->  
            
           
-           <div class="parrafoUno" id="parrafoUno">
-            <p>Indica el NÚMERO de POSICIONES a desplazar...</p>
-          </div>
+           
+            <p class="parrafoUno" id="parrafoUno">Indica el NÚMERO de POSICIONES a desplazar...</p>
+          
 
          
           <input type="number" class="input" id="offsetInput">        
       
-           <div class="parrafoDos" id="parrafoDos">
-            <p>ESCRIBE TU FRASE O PALABRA...</p>
-           </div>
+          
+            <p class="parrafoDos" id="parrafoDos" >ESCRIBE TU FRASE O PALABRA...</p>
+           
         
            <input type= "text" class="input" id="string"/>  <!--cajita que va a contener la frase o palabra a descifrar-->
            <span id="cajafraseAdescifrar"></span> <!--donde voy a recibir la palabra--->
@@ -54,14 +54,14 @@
            <div class="botonesCifrado" id="botonesDeCifrado">
             <button type="button" class="bCifrar" id="botonCifrar"> CIFRAR </button>
             <button type="button" class="bDescifrar" id="botonDescifrar" >DESCIFRAR</button>
-            <button type="button" class="bLimpiar" id="botonLimpiar">LIMPIAR</button>
+            <button type="button" class="bLimpiar" id="botonLimpiar">VOLVER</button>
           </div> 
 
          </form>  
           
-          <div class="parrafoMensaje" id="parrafoMensaje">
-          <p>MENSAJE...</p>
-          </div>
+          
+          <p class="parrafoMensaje" id="parrafoMensaje">MENSAJE...</p>
+          
 
 
           <div class="mensajeFinal" id="mensajefinalDescifrado">

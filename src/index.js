@@ -16,7 +16,7 @@ iniciar.addEventListener("click",function() {
 })
   
 //FUNCIONALIDAD BOTON CIFRAR
- const btnCifrado = document.getElementById("botonCifrar") 
+ const btnCifrado = document.getElementById("botonCifrar") //metodo
  btnCifrado.addEventListener("click",function()  {
 
 //  OFFSET    

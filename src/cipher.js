@@ -12,10 +12,10 @@ const cipher = {
                
     
         //como van a correr los caracteres de la frase o palabra for es un bucle 
-        for(let i = 0; i < string.length; i++){
+        for(let i = 0; i < string.length; i++){ //.lengt es una propiedad de string
     
             //voy a sacar el codigo ASCII del caracter
-            const aAscii = string.charCodeAt(i);
+            const aAscii = string.charCodeAt(i); 
     
             //como obtener la nueva posicion en ASSCII aplico el desplazamiento la formula sobre la letra 
             let nuevaPosicion = ((aAscii - 65 + offset) % 26) + 65

@@ -45,9 +45,9 @@ El Cipher Enamorados Proporciona una herramienta practica de comunicacion entre 
 
 5.3. Prototipo en papel
 
-![prototipo papel 1](C:\Users\PANDITINHO\Desktop\IM\pPapel1.jpg)
+![prototipo papel 1](https://github.com/erikaArango/SCL015-cipher/blob/master/pPapel1.jpg)
 
-![prototipo papel 2](C:\Users\PANDITINHO\Desktop\IM\pPapel2.jpg)
+![prototipo papel 2](https://github.com/erikaArango/SCL015-cipher/blob/master/pPapel2.jpg)
 
 5.4. Prototipo en FIGMA
 [Prototipo en figma](https://www.figma.com/file/VS1vZ5YvlaOFf6iwXH2keQ/cipher-ENAMORADOS?node-id=0%3A1)
@@ -58,7 +58,7 @@ El Cipher Enamorados Proporciona una herramienta practica de comunicacion entre 
 PRIMER PROTOTIPO: 
 
 
-![prototipo figma 1](C:\Users\PANDITINHO\Desktop\IM\pFigma1.jpg)
+![prototipo figma 1](https://github.com/erikaArango/SCL015-cipher/blob/master/pFigma1.jpg)
 
 con colores rojos y un diseño como llamativo
 los usuarios manifestaron que no era un diseño atractivo, sugirieron mas diseñoy color relacionado con el amor de pareja.
@@ -66,7 +66,7 @@ los usuarios manifestaron que no era un diseño atractivo, sugirieron mas diseñ
 
 SEGUNDO PROTOTIPO: 
 
-![prototipo figma 1](C:\Users\PANDITINHO\Desktop\IM\pFigma2.jpg)
+![prototipo figma 2](https://github.com/erikaArango/SCL015-cipher/blob/master/pFigma2.png)
 
 
 Fue de agrado e interés para los usuarios, expresaron que fue claro y atractivo. en base a este prototipo se empieza a trabajar.

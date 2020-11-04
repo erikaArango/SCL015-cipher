@@ -39,73 +39,73 @@ El Cipher Enamorados Proporciona una herramienta practica de comunicacion entre 
 
 ## 5. Proceso para definir el producto final
 
-5.1. Definir la idea
+## 5.1. Definir la idea
 
-5.2. Entrevista a los usuarios y definicion del producto en base a las  necesidades de los usuarios
+## 5.2. Entrevista a los usuarios y definicion del producto en base a las  necesidades de los usuarios
 
-5.3. Prototipo en papel
+## 5.3. Prototipo en papel
 
 ![prototipo papel 1](https://github.com/erikaArango/SCL015-cipher/blob/master/pPapel1.jpg)
 
 ![prototipo papel 2](https://github.com/erikaArango/SCL015-cipher/blob/master/pPapel2.jpg)
 
-5.4. Prototipo en FIGMA
-[Prototipo en figma](https://www.figma.com/file/VS1vZ5YvlaOFf6iwXH2keQ/cipher-ENAMORADOS?node-id=0%3A1)
+
+## 5.4. Testeo con Usuarios
+
+## PRIMER PROTOTIPO: 
 
 
-5.5. Testeo con Usuarios
-
-PRIMER PROTOTIPO: 
-
-
-![prototipo figma 1](https://github.com/erikaArango/SCL015-cipher/blob/master/pFigma1.jpg)
+![Primer prototipo en figma 1](https://github.com/erikaArango/SCL015-cipher/blob/master/pFigma1.jpg)
 
 con colores rojos y un diseño como llamativo
 los usuarios manifestaron que no era un diseño atractivo, sugirieron mas diseñoy color relacionado con el amor de pareja.
 
 
-SEGUNDO PROTOTIPO: 
+## SEGUNDO PROTOTIPO: 
 
-![prototipo figma 2](https://github.com/erikaArango/SCL015-cipher/blob/master/pFigma2.png)
+![Segundo prototipo en figma ](https://github.com/erikaArango/SCL015-cipher/blob/master/pFigma2.png)
 
 
 Fue de agrado e interés para los usuarios, expresaron que fue claro y atractivo. en base a este prototipo se empieza a trabajar.
 
-5.6. Descargar las plataformas para el desarrollo del proyecto 
+## 5.4. Prototipo en FIGMA
+[link al Prototipo en figma](https://www.figma.com/file/VS1vZ5YvlaOFf6iwXH2keQ/cipher-ENAMORADOS?node-id=0%3A1)
+
+## 5.6. Descargar las plataformas para el desarrollo del proyecto 
 
   5.6.1. Editor de texto
  
-  5.6.2. Git bash
+   5.6.2. Git bash
  
-  5.6.3. Realizar el fork
+   5.6.3. Realizar el fork
  
-  5.6.4. clonar el fork
+   5.6.4. clonar el fork
  
-  5.6.5. Instalar node.js
+   5.6.5. Instalar node.js
  
-  5.6.6. intalar dependencias del proyecto con npm install
+   5.6.6. intalar dependencias del proyecto con npm install
 
-5.7. Estructura HTML
+## 5.7. Estructura HTML
 
-5.8. Investigacion sobre cifrados, codigos de cifrados, videos, tutoriales, lecturas complementarias,for, funcion encode y decode, etc.
+## 5.8. Investigacion sobre cifrados, codigos de cifrados, videos, tutoriales, lecturas complementarias,for, funcion encode y decode, etc.
 
-5.9. Codigo en javascrip
+## 5.9. Codigo en javascrip
 
-  5.9.1. Index.js
+   5.9.1. Index.js
 
-  5.9.2. cipher.js
+   5.9.2. cipher.js
 
-5.10. Ejecutar comandos de Git hub(git add, git commit, git push) 
+## 5.10. Ejecutar comandos de Git hub(git add, git commit, git push) 
 
-5.11.Realizar tests
+## 5.11.Realizar tests
 
-5.12.Corregir errores que arrojan los tests
+## 5.12.Corregir errores que arrojan los tests
 
-5.13.Investigacion sobre estilos y atributos CSS
+## 5.13.Investigacion sobre estilos y atributos CSS
 
-5.14.Estilos en CSS
+## 5.14.Estilos en CSS
 
-5.15.Ejecutar comando :gh-pages 
+## 5.15.Ejecutar comando :gh-pages 
 
 
 

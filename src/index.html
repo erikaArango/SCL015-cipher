@@ -10,61 +10,35 @@
   </head>
 
   <body>
-
-
-    <div id="root" class="imgBackground">
-
-    
-
-          <!--PAGINA INICIO-->
+    <div id="root" class="imgBackground">  
+        <!--PAGINA INICIO-->
      <main class="main">       
         <div class="pagInicio" id="paginaInicio"><!--aqui le doy clase e identificacion a la pagina inicio-->         
            <h1>OUR SECRET MESSAGES</h1>     
            <p class="parrafoInicio" id="parrafoInicial">Éste es un  CIFRADO en el que una letra es REEMPLAZADA por <!--<br />-->otra letra, un número de POSICIONES más adelante en el  <br />alfabeto.<br />De ésta manera podrás tener una comunicacion CONFIDENCIAL con <!--<br />-->tu Pareja. <br /> <br />Tu debes INDICAR el número de POSICIONES que serán <!--<br />--> REEMPLAZADAS las letras...</p>
-         
-         <button class="bIniciar" id="bIniciar">INICIAR</button>
+                  <button class="bIniciar" id="bIniciar">INICIAR</button>
         </div> 
-
          <!--PAGINA 2 Cifrado-->
         <div class="pagCifrado" id="paginaCifrado">      
-         
-         <form action=""><!--es un armazon que Le dice al nav que esto es un formulario-->       
-          
-           
-            <p class="parrafoPosicionesAdesplazar" id="parrafoPosicionesAdesplazar">Indica el NÚMERO de POSICIONES a desplazar...</p>
-          
-
-         
-          <input type="number" class="input" id="offsetInput">        
-      
-          
-            <p class="parrafoEscribeFrase" id="parrafoEscribeFrase" >ESCRIBE TU FRASE O PALABRA...</p>
-           
-        
+          <form action=""><!--es un armazon que Le dice al nav que esto es un formulario-->     
+           <p class="parrafoPosicionesAdesplazar" id="parrafoPosicionesAdesplazar">Indica el NÚMERO de POSICIONES a desplazar...</p>       
+           <input type="number" class="input" id="offsetInput">        
+           <p class="parrafoEscribeFrase" id="parrafoEscribeFrase" >ESCRIBE TU FRASE O PALABRA...</p>          
            <input type= "text" class="input" id="string"/>  <!--cajita que va a contener la frase o palabra a descifrar-->
            <span id="cajafraseAdescifrar"></span> <!--donde voy a recibir la palabra--->
-
            <!--Botones-->
            <div class="botonesCifrado" id="botonesDeCifrado">
             <button type="button" class="bCifrar" id="botonCifrar"> CIFRAR </button>
             <button type="button" class="bDescifrar" id="botonDescifrar" >DESCIFRAR</button>
             <button type="button" class="bLimpiar" id="botonLimpiar">VOLVER</button>
-          </div> 
-
-         </form>  
-          
-          
+           </div>
+          </form>   
+          <!--mensaje final-->       
           <p class="parrafoMensaje" id="parrafoMensaje">MENSAJE...</p>
-          
-
-
           <div class="mensajeFinal" id="mensajefinalDescifrado">
           <!--cajita que va a contener el mensaje final cifrado o descifrado-->        
           </div>
-        </div> 
-                 
-          
-        
+        </div>                
       </main>
       <!--<footer class="footer">
         <p>Hecho por Erika Arango - SCL 15 - Laboratoria </p>

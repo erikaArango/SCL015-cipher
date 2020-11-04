@@ -16,9 +16,8 @@ const cipher = {
              //convertir el ASCII a la nueva posicion
             const desdeAscii = String.fromCharCode(nuevaPosicion)    
             //agrego los caracteres al mensaje final
-            mensaje += desdeAscii;          
-    
-        }
+            mensaje += desdeAscii;        
+            }
         return mensaje;
     },
     decode: (offset,string) => {        
@@ -30,20 +29,14 @@ const cipher = {
             //sacar codigo ASCII del caracter
             const aAscii = string.charCodeAt(i);    
             //nueva posicion es ASCII
-            let nuevaPosicion = ((aAscii + 65 - offset) % 26) + 65;
-            
-            
+            let nuevaPosicion = ((aAscii + 65 - offset) % 26) + 65;          
             //caracter de los espacios
-            if(aAscii == 32) {nuevaPosicion = 32;}
-    
-            
+            if(aAscii == 32) {nuevaPosicion = 32;}     
             //convertir el ASCII  a la nueva posicion
             const desdeAscii = String.fromCharCode(nuevaPosicion)
-    
             //agrego los caracteres al mensaje final
             mensaje += desdeAscii;
         }
-    
         return mensaje;
     }
     }

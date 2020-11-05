@@ -20,8 +20,7 @@ describe('cipher.encode', () =>{
     }
     )
   }
-    );
-    
+    );  
 
     describe('cipher.decode', () =>{ 
 
@@ -41,6 +40,8 @@ describe('cipher.encode', () =>{
   
 }
   );
-    
+
+
+  
 
 

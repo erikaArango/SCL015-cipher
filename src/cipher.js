@@ -19,6 +19,7 @@ const cipher = {
             mensaje += desdeAscii;        
             }
         return mensaje;
+        console.log(mensaje)
     },
     decode: (offset,string) => {        
         //aqui convierto el offset a entero para que js me lo tome como numero
